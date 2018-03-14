@@ -49,12 +49,21 @@
             <p class="event listening">Shit's broke</p>
             <p class="event received">Nah its good</p>
         </div>
+        <div id= "timer">
+          <div class="stopwatch"></div>
+          <a href="#" class="button" onClick="stopwatch.start();">Start</a>
+          <a href="#" class="button" onClick="stopwatch.stop();">Stop</a>
+          <a href="#" class="button" onClick="stopwatch.restart();">Restart</a>
+          <div id="money"></div>
+          <p> Money</p>
+        </div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="res/js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>
+    <script type="text/javascript" src="res/js/stopwatch.js"></script>
 </body>
 
 </html>
